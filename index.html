@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidade — MyOficinaTruck</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #1C2333;
+      color: #F1F5F9;
+      line-height: 1.75;
+    }
+
+    header {
+      background: #252D3D;
+      border-bottom: 4px solid #F97316;
+      padding: 20px 24px;
+    }
+
+    header h1 {
+      font-size: 20px;
+      font-weight: 800;
+      color: #F1F5F9;
+      letter-spacing: 0.3px;
+    }
+
+    header h1 span { color: #F97316; }
+
+    header p {
+      font-size: 13px;
+      color: #94A3B8;
+      margin-top: 4px;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 36px 24px 80px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #252D3D;
+      border-left: 4px solid #F97316;
+      padding: 10px 16px;
+      border-radius: 4px;
+      color: #94A3B8;
+      font-size: 13px;
+      margin-bottom: 28px;
+    }
+
+    h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #F97316;
+      margin: 28px 0 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #3A4560;
+    }
+
+    p {
+      color: #CBD5E1;
+      margin-bottom: 12px;
+      font-size: 15px;
+    }
+
+    ul {
+      color: #CBD5E1;
+      padding-left: 20px;
+      margin-bottom: 14px;
+      font-size: 15px;
+    }
+
+    ul li { margin-bottom: 5px; }
+
+    strong { color: #F1F5F9; }
+
+    a { color: #F97316; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    footer {
+      text-align: center;
+      color: #475569;
+      font-size: 12px;
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid #3A4560;
+    }
+
+    @media (max-width: 600px) {
+      header { padding: 16px; }
+      .container { padding: 24px 16px 60px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MyOficinaTruck <span>— Política de Privacidade</span></h1>
+    <p>Aplicativo de gestão de oficinas de caminhões</p>
+  </header>
+
+  <div class="container">
+
+    <div class="badge">
+      Última atualização: 05 de maio de 2025
+    </div>
+
+    <p>
+      Esta Política de Privacidade descreve como o aplicativo <strong>MyOficinaTruck</strong>
+      coleta, usa e protege as informações dos usuários. Ao utilizar o aplicativo, você concorda
+      com os termos descritos neste documento.
+    </p>
+
+    <h2>1. Quem somos</h2>
+    <p>
+      O <strong>MyOficinaTruck</strong> é um aplicativo de gestão de oficinas de caminhões,
+      desenvolvido para uso interno de empresas e profissionais do setor de manutenção veicular.
+      Pacote Android: <code>com.melimmm.myoficinatruck</code>.
+    </p>
+
+    <h2>2. Informações que coletamos</h2>
+    <p>O aplicativo coleta e armazena as seguintes informações <strong>exclusivamente no dispositivo do usuário</strong>:</p>
+    <ul>
+      <li>Nome de usuário e senha (armazenados localmente via AsyncStorage)</li>
+      <li>Dados de oficina: nome, responsável, cidade, estado e tipo de operação</li>
+      <li>Dados operacionais: chamados, ordens de serviço, veículos, motoristas, mecânicos e peças</li>
+      <li>Histórico de manutenções e notificações internas</li>
+    </ul>
+    <p>
+      <strong>Não coletamos dados pessoais sensíveis</strong> como CPF, dados bancários,
+      localização GPS em tempo real, contatos do dispositivo ou informações biométricas.
+    </p>
+
+    <h2>3. Como usamos as informações</h2>
+    <p>As informações coletadas são utilizadas exclusivamente para:</p>
+    <ul>
+      <li>Autenticar o usuário no aplicativo</li>
+      <li>Gerenciar chamados, ordens de serviço e frota de veículos</li>
+      <li>Enviar notificações internas sobre o status de ordens de serviço</li>
+      <li>Gerar relatórios operacionais para a gestão da oficina</li>
+    </ul>
+
+    <h2>4. Compartilhamento de dados</h2>
+    <p>
+      <strong>Não compartilhamos, vendemos ou transferimos</strong> nenhuma informação do usuário
+      para terceiros. Todos os dados são armazenados localmente no dispositivo ou no servidor
+      privado da oficina, sem acesso externo.
+    </p>
+
+    <h2>5. Permissões do aplicativo</h2>
+    <p>O aplicativo solicita as seguintes permissões do dispositivo:</p>
+    <ul>
+      <li>
+        <strong>POST_NOTIFICATIONS</strong> — Para enviar notificações sobre atualizações de
+        ordens de serviço e manutenções preventivas.
+      </li>
+    </ul>
+    <p>
+      O aplicativo <strong>não acessa</strong> câmera, microfone, localização GPS,
+      contatos ou arquivos pessoais do usuário.
+    </p>
+
+    <h2>6. Segurança dos dados</h2>
+    <p>
+      Adotamos medidas técnicas para proteger as informações armazenadas, incluindo
+      armazenamento local seguro via AsyncStorage do dispositivo. O acesso ao sistema
+      é protegido por login e senha definidos pelo administrador da oficina.
+    </p>
+
+    <h2>7. Retenção de dados</h2>
+    <p>
+      Os dados são mantidos enquanto o aplicativo estiver instalado no dispositivo.
+      Ao desinstalar o aplicativo, todos os dados locais são removidos automaticamente.
+    </p>
+
+    <h2>8. Direitos do usuário</h2>
+    <p>O usuário tem o direito de:</p>
+    <ul>
+      <li>Acessar todos os dados registrados no aplicativo</li>
+      <li>Corrigir informações incorretas</li>
+      <li>Excluir sua conta e dados a qualquer momento pelo administrador do sistema</li>
+    </ul>
+
+    <h2>9. Público-alvo</h2>
+    <p>
+      O <strong>MyOficinaTruck</strong> é destinado exclusivamente a usuários adultos e
+      profissionais do setor de manutenção veicular. Não coletamos informações de menores de 18 anos.
+    </p>
+
+    <h2>10. Alterações nesta política</h2>
+    <p>
+      Podemos atualizar esta Política de Privacidade periodicamente. Notificaremos os usuários
+      sobre mudanças significativas por meio de uma notificação no aplicativo ou atualização
+      da data no topo deste documento.
+    </p>
+
+    <h2>11. Contato</h2>
+    <p>
+      Em caso de dúvidas sobre esta Política de Privacidade ou sobre o tratamento de seus dados,
+      entre em contato pelo e-mail informado na ficha do aplicativo na Google Play Store.
+    </p>
+
+    <footer>
+      &copy; 2025 MyOficinaTruck. Todos os direitos reservados.<br/>
+      Pacote: com.melimmm.myoficinatruck
+    </footer>
+
+  </div>
+</body>
+</html>
